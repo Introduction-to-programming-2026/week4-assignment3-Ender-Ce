@@ -18,3 +18,9 @@ Rules:
 - You must use strcmp().
 - Do NOT use == for string comparison.
 */
+
+#include 
+int main(void){
+
+
+}
