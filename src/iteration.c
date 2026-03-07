@@ -30,7 +30,7 @@ int main() {
     int n;
 
     do{
-        printf("%d", &n);
+        scanf("%d", &n);
     } while (n < 1);
 
     for (int i = 1; i <= n; i++) {
