@@ -19,9 +19,38 @@ Rules:
 - Do NOT use == for string comparison.
 */
 
-#include
-int main(void){
+#include <stdio.h>
+#include <string.h>
 
+int main () {
+    char *names [] = {"Ender", "Furkan", "hasan", "halil",};
+    int size = 4;
+    char search_name [50];
+    int found = 0;
+
+    printf("US  => Write a name\n");
+    printf("TR  => Isim giriniz\n");
+    scanf("%s", search_name);
+
+    for ( int i = 0; i < size; i ++) {
+        if (strcmp(names[i], search_name) == 0) {
+            found = 1;
+            break;
+        }
+    }
+
+    if (found) {
+        printf( "Found");
+    }
+        else {
+            printf( "not found ");
+        }
+return 0;
 
 }
+
+
+
+
+
 
