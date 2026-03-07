@@ -23,3 +23,12 @@ Rules:
 - No recursion allowed.
 - Output must match exactly.
 */
+
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    do{
+        printf
+    }
